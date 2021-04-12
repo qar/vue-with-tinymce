@@ -22,3 +22,15 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Add Tinymce
+
+1. Install editor core with vue component
+
+```
+npm install --save tinymce
+npm install --save @tinymce/tinymce-vue@^3
+```
+
+`@tinymce/tinymce-vue` Version 4.0 is intended to support Vue 3. For Vue 2.x and below please use previous versions of the wrapper.
+

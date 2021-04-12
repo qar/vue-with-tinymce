@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <sweet-editor v-model="content" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SweetEditor from './components/SweetEditor.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    SweetEditor
+  },
+  data() {
+    return {
+      content: '<h1>A just work "Vue.js with tinymce but not Tinymce Cloud" demo</h1>'
+    }
+  },
 }
 </script>
 
