@@ -34,3 +34,9 @@ npm install --save @tinymce/tinymce-vue@^3
 
 `@tinymce/tinymce-vue` Version 4.0 is intended to support Vue 3. For Vue 2.x and below please use previous versions of the wrapper.
 
+2. Copy skins assets
+
+```
+mkdir -p public/tinymce
+cp -r node_modules/tinymce/skins public/tinymce
+```
