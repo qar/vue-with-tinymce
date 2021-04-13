@@ -44,7 +44,7 @@ export default {
         // required 
         // skin assets can be found in node_modules/tinymce/skins 
         // copy to public directory for script loading
-        skin_url: 'tinymce/skins/ui/oxide',
+        skin_url: `${process.env.VUE_APP_STATIC_BASE_PATH}tinymce/skins/ui/oxide`,
 
         plugins: ['image link code table lists wordcount'],
         height: 300

@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'development' ? '/' : '/vue-with-tinymce',
+  publicPath: process.env.VUE_APP_STATIC_BASE_PATH,
   outputDir: 'docs'
 }
